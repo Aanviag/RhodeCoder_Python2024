@@ -1,0 +1,40 @@
+score_1 = float(input("Insert your 1st test grade:"))
+score_2 = float(input("Insert your 2nd test grade:"))
+score_3 = float(input("Insert your 3rd test grade:"))
+
+average_score = score_1 + score_2 + score_3
+
+print(average_score/3)
+
+if 96.6 <= average_score <= 100.0 :
+     grade = "A+, Excellence"
+elif 92.4 <= average_score < 96.6 :
+     grade = "A, Great"
+elif 89.6 <= average_score < 92.4 :
+     grade = "A-, Good Work"
+elif 86.6 <= average_score < 89.6 :
+     grade = "B+, Good Effort"
+elif 82.6 <= average_score < 86.6 :
+     grade = "B, Ok Work"
+elif 79.6 <= average_score < 82.6 :
+     grade = "B-, OK"
+elif 76.6 <= average_score < 79.6 :
+     grade = "C+, Better Effort next time"
+elif 72.6 <= average_score < 76.6 :
+     grade = "C, Try Better Next Time"
+elif 69.6 <= average_score < 72.6 :
+     grade = "C-, More Effort Required"
+elif 66.6 <= average_score < 69.6 :
+     grade = "D+, Keep Working"
+elif 62.6 <= average_score < 66.6 :
+     grade = "D, Work Harder"
+elif 59.6 <= average_score < 62.6 :
+     grade = "D-, Getting There"
+else:
+    grade = "F, Put more effort and time in you work"
+
+
+print("Your final letter grade is" , grade)
+
+
+
