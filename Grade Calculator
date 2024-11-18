@@ -1,10 +1,12 @@
+#Named the assignments as scores and code to put in value of the assignemnt
 score_1 = float(input("Insert your 1st test grade:"))
 score_2 = float(input("Insert your 2nd test grade:"))
 score_3 = float(input("Insert your 3rd test grade:"))
 
+
 average_score = score_1 + score_2 + score_3
 
-print(average_score/3)
+print("Your numerical grade value is", average_score/3)
 
 if 96.6 <= average_score <= 100.0 :
      grade = "A+, Excellence"
