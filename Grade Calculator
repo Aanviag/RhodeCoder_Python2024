@@ -1,15 +1,23 @@
 #Named the assignments as scores and code to put in value of the assignemnt
-score_1 = float(input("Insert your 1st test grade:"))
-score_2 = float(input("Insert your 2nd test grade:"))
-score_3 = float(input("Insert your 3rd test grade:"))
+score_1 = int(input("Insert your 1st test grade:"))
+score_2 = int(input("Insert your 2nd test grade:"))
+score_3 = int(input("Insert your 3rd test grade:"))
 
+#Created a list for all of the 3 scores and the code to find he average of the three scores
+scores = [score_1, score_2, score_3]
 
-average_score = score_1 + score_2 + score_3
+#Added as a placeholder for the future scores to be added
+total_score = 0 
+for score in scores:
+     total_score += score
 
-print("Your numerical grade value is", average_score/3)
+average_score = total_score / len(scores)
+    
+
+print("The numerical grade is", average_score)
 
 if 96.6 <= average_score <= 100.0 :
-     grade = "A+, Excellence"
+     grade = "A+, Excellent"
 elif 92.4 <= average_score < 96.6 :
      grade = "A, Great"
 elif 89.6 <= average_score < 92.4 :
