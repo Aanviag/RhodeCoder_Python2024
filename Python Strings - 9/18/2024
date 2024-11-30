@@ -1,0 +1,14 @@
+# print(...) ... -> value
+# Prints a value that you cna provide
+print("Hello")
+print("Hello World")
+
+#String Concatenation -> Combining Multiple Strings
+print("Hello + World")
+
+
+#input(...)... -> message display
+# Prints ... to the terminal and requests user input
+#You can print the result from ipt(...)
+#Combine phrases with +
+print("My name is" + input("Enter a name:"))
