@@ -1,0 +1,15 @@
+#Lists index start from 0 
+#From the back index start from -1 => fruits(-1) -> Strawberry
+fruits = ["Apple", "Pineapple", "Grapes","Tomato","Strawberry"]
+
+#Will print index 2 nad all after => Grapes, Tomato, Strawberry
+print(fruits[2:])
+
+#Produces all numbers before it excluding the index given => Apple, Pineapple
+print(fruits[:2])
+
+#Prints first number but not second index
+print(fruits[3:4])
+
+#Prints all values between exluding last index number
+print(fruits[0:3])
