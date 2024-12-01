@@ -1,0 +1,57 @@
+# input("What is your name:")
+# print("Angel")
+
+#Data type
+print("Angel")  #string 
+print(type("Angel")) # will tell you that this is a string 
+print(10) # int/integer
+print(1.5) # float 1.5,0.5, 21.10
+
+#Data types: Strings, Ints, Floats
+
+#Operators +, - , /, *
+#print(10+1)
+#print(10-1)
+#print(10/3)
+#print(10 // 3)
+#print(10 * 1)
+
+#Cocatenate
+print("Angel" + "Arrazola") #"Angel Arrazola"
+print("Angel Arrazola") #equivalent to above
+
+#input(...) => returns the input from the user
+#input retuns a String
+#"My name is " + user input => "My name is user_input"
+print("My name is " + input("WHat is your name?"))
+
+#TypeErrror, can't subtract Strings
+#print("Angel" - "Arrazola")
+
+#TypeError, can't divide Strings
+# print("Angel" / "Arrazola")
+
+# TypeError, can't multiply Strings
+# print("Angel" * "Arrazola")
+
+#TypeError, can't add an int and a String
+# print("Angel"+ 1)
+
+#TypeError, can't subtract an int and a String
+#print("Angel" / 1)
+
+#You can multiply a string and an int together
+# print("Angel" * 10)
+
+#Casting (changing the type to another type)
+#Str(...) => change ... to a string
+# int(...) => change ... to a int
+# float =(...) => change ... to a float 
+
+#Typing out... 2
+# produces an error because adding an int with a string 
+# print(1 + input("choose a number: "))
+# print(1 + int(input("choose a number: ")))
+
+#variables
+favorite_number = input("Enter your name ")
