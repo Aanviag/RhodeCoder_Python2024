@@ -1,0 +1,39 @@
+
+print("Welcome to the Fire, Log, water game!")
+
+name = input("What is your name?")
+print("Good morning " + name + " ready for today's adventure?")
+
+import random
+
+user_input = input("Choose fire, water, or log:")
+print("You chose " + user_input)
+
+game_options = ["fire", "water", "log"]
+computer_choice = random.choice(game_options)
+
+print(name + " picked " + user_input)
+print("Player 2 picked " + computer_choice)
+
+# Rules: Water wins over fire
+# Fire wins over Log
+# Log wins over water
+if user_input == computer_choice:
+    print("Both players tied!")
+elif user_input == "fire" and computer_choice == "log":
+    print(name + " won!Great Job! The fire will burn the log.")
+elif user_input == "log" and computer_choice == "fire":
+    print(name + " lost! Try again next time! The log will burn in the fire.")
+elif user_input == "water" and computer_choice == "log":
+    print(name + " lost! Try again next time! The log will float in the water.")
+elif user_input == "log" and computer_choice == "water":
+    print(name + " won! Good Try! The log will float in the water!")
+elif user_input == "fire" and computer_choice == "water":
+    print(name + " lost! Good Effort! The water will distinguish the fire.")
+elif user_input == "water" and computer_choice == "fire":
+    print(name + " won! Great Job! The water will put off the fire.")
+
+
+
+
+
