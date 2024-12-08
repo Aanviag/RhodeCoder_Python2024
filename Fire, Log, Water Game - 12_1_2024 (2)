@@ -1,17 +1,22 @@
-
+#Introduciton into the game
 print("Welcome to the Fire, Log, water game!")
 
+#Introduccing user witht he game & rules
 name = input("What is your name?")
 print("Good morning " + name + " ready for today's adventure?")
 
+#Imported a random library which allows the comuteer to choose randomly between the options form the given list
 import random
 
+#User chooses their choice and declares it
 user_input = input("Choose fire, water, or log:")
 print("You chose " + user_input)
 
+#Computer chooses their choice and declares it
 game_options = ["fire", "water", "log"]
 computer_choice = random.choice(game_options)
 
+#Final choices of both the players
 print(name + " picked " + user_input)
 print("Player 2 picked " + computer_choice)
 
